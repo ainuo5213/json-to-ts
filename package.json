@@ -1,0 +1,32 @@
+{
+  "name": "json-to-ts",
+  "version": "1.0.0",
+  "description": "json to typescript declaration",
+  "main": "index.js",
+  "keywords": [
+    "json",
+    "typescript"
+  ],
+  "author": "ainuo5213",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.1.0",
+    "get-type": "^1.1.0",
+    "is": "^3.3.0",
+    "ts-morph": "^17.0.1"
+  },
+  "type": "module",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ainuo5213/json-to-ts.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "bugs": {
+    "url": "https://github.com/ainuo5213/json-to-ts/issues"
+  }
+}
