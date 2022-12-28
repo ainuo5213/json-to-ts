@@ -1,5 +1,5 @@
 {
-  "name": "json-to-ts",
+  "name": "@ainuo-utils/json-to-ts",
   "version": "1.0.0",
   "description": "json to typescript declaration",
   "main": "index.js",
