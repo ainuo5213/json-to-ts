@@ -11,7 +11,7 @@ npm install @ainuo-utils/json-to-ts
 ### usage
 
 ```javascript
-import json2ts from '@ainuo5213-utils/json-to-ts';
+import json2ts from '@ainuo-utils/json-to-ts';
 const data = [
   {
     name: 'ainuo5213',
@@ -31,4 +31,24 @@ const data = [
 ];
 
 json2ts(data);
+```
+```typescript
+export interface IArrayData {
+    name: string;
+    age: number;
+    address: Address;
+    favorites: Favorites[];
+}
+
+export interface Address {
+    country: string;
+    province: string;
+    city: string;
+}
+
+export interface Favorites {
+    name: string;
+    score: number;
+}
+
 ```
